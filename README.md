@@ -1,6 +1,7 @@
 # Image_Classification
 
 **1.** To start, download the following file and drop it in the folder you are working in: 
+
 **2.** After that, create a new python file in that same directory. Copy the following code into that file:
 ```python
 from train_NN import CNN
@@ -11,6 +12,9 @@ if __name__ == "__main__":
 
 **Example**
 ```python
+from train_NN import CNN
+
+if __name__ == "__main__":
     CNN(
         train_path="./klass_daten/",
         epochs=30,
