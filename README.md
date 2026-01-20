@@ -29,3 +29,15 @@ if __name__ == "__main__":
         dec_lr=10e-5
     )
 ```
+**Explanation of the parameters**
+`train_path`: The path to the folder you want to classify. If in the same directory, just change the "klass_daten" to the name of your folder.
+`epochs`: Number of training epochs.
+`lr`: Learning rate.
+`conv_filters`: Number and size of convolutional filters in the order of usage.
+`fully_layers`: Number and size of fully connected layers, following the convolutional layers.
+`resize`: Resize the pictures in the dataset into a suitable one (height,width).
+`model_name`: Name the model you are creating.
+`train_split`: E.g. 0.9 means, that 90/% of the data will be used for training and 10/% for validation.
+`droprate`: Dropout probability (optional).
+    )
+```
